@@ -33,7 +33,7 @@
   </head>
   <body class="font-manrope">
     <!-- header starts here -->
-    <header class="mx-auto max-w-[1170px] pt-4 px-2">
+    <header class="mx-auto mb-10 max-w-[1170px] pt-4 px-2">
       <!-- navbar start -->
       <div class="navbar bg-base-100 justify-between">
         <!-- heading start -->
@@ -46,7 +46,7 @@
           <h1 class="text-[34px] font-extrabold">Rinterio</h1>
         </div>
         <!-- middle part start -->
-        <div class="navbar-center hidden md:flex">
+        <div class="navbar-center hidden md:flex  hover: cursor-pointer">
           <ul class="menu menu-horizontal text-[18px] gap-8">
             <li class="font-extrabold">Home</li>
             <li>Services</li>
@@ -68,7 +68,7 @@
             <i class="fa-solid fa-cart-shopping text-[22px]"></i>
           </div>
           <div
-            class="flex items-center justify-center gap-2 w-[212px] h-[56px] rounded-4xl bg-[#ABEF5F]"
+            class="flex items-center justify-center gap-2 w-[212px] h-[56px] rounded-4xl bg-[#ABEF5F]  hover: cursor-pointer"
           >
             <h1 class="text-[20px] font-extrabold">Book Consult</h1>
             <div
@@ -80,12 +80,28 @@
         </div>
         <!-- bars start -->
         <div
-          class="w-12 h-12 rounded-full bg-white border items-center justify-center md:hidden"
+          class="w-12 h-12 rounded-full bg-white border items-center justify-center  hover: cursor-pointer md:hidden"
         >
           <i class="fa-solid fa-bars text-[24px]"></i>
         </div>
       </div>
-      <div></div>
+      <!-- banner -->
+      <div class="flex flex-col items-center justify-center mt-8 gap-4 md:gap-6">
+        <img class="w-[261px] h-[160px] md:w-[571px] md:h-[350px]" src="./images/banner.png" alt="" />
+        <h1 class="w-[335px] text-3xl font-extrabold text-center md:w-[1070px] md:text-6xl">A barn house of this design has a striking appearance</h1>
+        <p class="w-[335px] text-[14px] font-medium text-center leading-6 md:text-[16px] md:w-[972px]">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light.
+        </p>
+        <div class="flex items-center justify-center gap-4 w-[335px] h-[52px] bg-[#ABEF5F80] rounded-[32px] border border-green-300 hover: cursor-pointer md:w-52">
+          <h1 class="text-[20px] font-bold text-black">View Details</h1>
+          <div
+            class="flex items-center justify-center rotate-35 w-9 h-9 rounded-full bg-[#ABEF5F]">
+            <i class="fa-solid fa-arrow-up-long text-[20px] text-black"></i>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- header ends here -->
   </body>
